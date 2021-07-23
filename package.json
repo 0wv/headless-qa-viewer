@@ -1,0 +1,9 @@
+{
+  "name": "headless-qa-viewer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/0wv/headless-qa-viewer.git",
+  "author": "0wv <w32w64@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
