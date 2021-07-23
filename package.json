@@ -5,5 +5,8 @@
   "repository": "https://github.com/0wv/headless-qa-viewer.git",
   "author": "0wv <w32w64@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^10.1.0"
+  }
 }
