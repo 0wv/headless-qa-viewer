@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer')
     const elementHandle = await page.$('input[type=file]')
     await elementHandle.uploadFile(arg)
     await page.pdf({
-      path: `${basename(arg, '.txt')}-qa.pdf`,
+      path: `${basename(arg, '.qax')}-qa.pdf`,
     })
     await page.evaluate(() => {
       function toggleCheckbox (optionName) {
