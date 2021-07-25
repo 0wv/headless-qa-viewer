@@ -25,7 +25,7 @@ const puppeteer = require('puppeteer')
       toggleCheckbox('解答欄を表示する')
     })
     await page.pdf({
-      path: `${basename(arg, '.txt')}-iq.pdf`,
+      path: `${basename(arg, '.qax')}-iq.pdf`,
     })
     await browser.close()
   }
